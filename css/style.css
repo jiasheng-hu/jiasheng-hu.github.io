@@ -1,0 +1,37 @@
+* {
+    box-sizing:border-box;
+    z-index: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+}
+
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+h2{
+    font-family:Garamond, times, serif;
+}
+
+.header {
+    padding: 10px 16px;
+    position: sticky;
+    background-color: black;
+    top: 0em;
+    left: 2em;
+}
+
+
+a:link{
+    text-decoration: none; 
+    color: rgb(59, 123, 246);
+}
+a:hover{
+    text-decoration: underline; 
+    color: rgb(59, 123, 246);
+}
